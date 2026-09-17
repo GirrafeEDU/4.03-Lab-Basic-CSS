@@ -1,29 +1,27 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+body {
+  font-family: Arial;
+  font-size: 12px;
 }
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+/*Placed font-family and size in the body to avoid repetition for the a and .author-name-and-date selectors */
+img {
+  width: 300px;
+  height: auto;
 }
-
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+h1 {
+  padding: 5px;
+  font-size: 24px;
+  color: white;
+  background-color: red;
 }
-
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+.author-name-and-date{
+  font-family: Arial;
+  color: gray;
 }
-
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+p, ol {
+  font-family: "Times New Roman";
+  font-size: 16px;
+  color: darkslategray;
 }
-
-tbody tr:hover {
-  background-color: #e9e9e9;
+a {
+  color: blue;
 }
