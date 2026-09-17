@@ -1,17 +1,19 @@
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
 img {
   width: 300px;
   height: auto;
 }
 h1 {
-  font-family: Arial;
   padding: 5px;
   font-size: 24px;
   color: white;
   background-color: red;
 }
 .author-name-and-date{
-  font-size: 12px;
-  font-family: Arial;
+  /* font-family and font-size are inherited from body*/
   color: gray;
 }
 p, ol {
@@ -20,7 +22,6 @@ p, ol {
   color: darkslategray;
 }
 a {
-  font-family: Arial;
-  font-size: 12px;
+  /* font-family and font-size are inherited from body*/
   color: blue;
 }
