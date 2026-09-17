@@ -1,6 +1,5 @@
 body {
   font-family: Arial;
-  font-size: 12px;
 }
 img {
   width: 300px;
@@ -14,7 +13,8 @@ h1 {
   background-color: red;
 }
 .author-name-and-date{
-  /* font-family and font-size are inherited from body*/
+  font-family: Arial;
+  font-size: 12px;
   color: gray;
 }
 p, ol {
@@ -23,6 +23,7 @@ p, ol {
   color: darkslategray;
 }
 a {
-  /* font-family and font-size are inherited from body*/
+  /* font-family inherited from body*/
+  font-size: 12px;
   color: blue;
 }
