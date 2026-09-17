@@ -1,19 +1,16 @@
-body {
-  font-family: Arial;
-  font-size: 12px;
-}
-/*Placed font-family and size in the body to avoid repetition for the a and .author-name-and-date selectors */
 img {
   width: 300px;
   height: auto;
 }
 h1 {
+  font-family: Arial;
   padding: 5px;
   font-size: 24px;
   color: white;
   background-color: red;
 }
 .author-name-and-date{
+  font-size: 12px;
   font-family: Arial;
   color: gray;
 }
@@ -23,5 +20,7 @@ p, ol {
   color: darkslategray;
 }
 a {
+  font-family: Arial;
+  font-size: 12px;
   color: blue;
 }
